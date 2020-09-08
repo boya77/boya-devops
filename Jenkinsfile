@@ -19,6 +19,7 @@ pipeline {
                sh 'pwd'
 	       sh 'ls -ltr'
 	       sh 'cat /etc/redhat-release'
+	       sh 'cat /proc/cpuinfo'
             }
         }
     }   
