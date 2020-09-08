@@ -18,6 +18,7 @@ pipeline {
             steps {
                sh 'pwd'
 	       sh 'cat /proc/cpuinfo'
+	       sh 'ls -ltr'
             }
         }
     }   
