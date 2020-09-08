@@ -19,6 +19,7 @@ pipeline {
                sh 'pwd'
 	       sh 'cat /proc/cpuinfo'
 	       sh 'ls -ltr'
+	       sh 'uname-r'
             }
         }
     }   
