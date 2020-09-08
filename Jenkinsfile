@@ -17,6 +17,7 @@ pipeline {
         stage(pwd) {
             steps {
                sh 'pwd'
+	       sh 'ls -ltr'
             }
         }
     }   
