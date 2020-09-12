@@ -21,5 +21,10 @@ pipeline {
 	       sh 'ls -ltr'
             }
         }
+	state('new') {
+	    steps {
+	       sh 'ls -ltr /etc/yum.repos.d/'
+	    }
+        }   
     }   
 }
