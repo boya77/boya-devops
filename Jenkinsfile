@@ -25,6 +25,7 @@ pipeline {
 	    steps {
 	       sh 'ls -ltr /etc/yum.repos.d/'
 	       sh 'pwd'
+	       sh 'cat /etc/redhat-release'
 	    }
         }   
     }   
