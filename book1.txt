@@ -2,3 +2,4 @@
 test
 try
 check build
+check
