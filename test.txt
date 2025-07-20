@@ -1,4 +1,8 @@
 testing my git
 New commit
 test
+<<<<<<< HEAD
 check test
+=======
+fce7c21cb0e74dd9991ab370da816a7b
+>>>>>>> fa44114 (update test file)
